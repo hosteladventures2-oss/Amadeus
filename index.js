@@ -11,8 +11,8 @@ const app = express();
 const PORT = process.env.PORT||5000;
 
   const amadeus = new Amadeus({
-    clientId: "POY0hg8sv3gATcy4arDw5dnm0tx4oQb3",
-    clientSecret: "NLbaFBA11x604MSQ",
+    clientId: "EAP3PqO8SbLGdBP62DoyKM7scO5aU9rP",
+    clientSecret: "IgJGPUixFXMRseOA",
   });
 
 app.use(bodyParser.json());
